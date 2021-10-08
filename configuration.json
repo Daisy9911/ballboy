@@ -1,0 +1,56 @@
+[
+  {"level":
+    {
+      "_comment": "This is level 1",
+      "_levelSize" : "it is used to express the height and width of a level",
+      "levelSize" : {
+        "height" : 800,
+        "width" : 800,
+        "floorheight": 300
+      },
+      "ballboySize": "medium",
+      "_ballboyComment": "Your main character can be normal or large. What pixel dimensions these match can be up to you.",
+      "heroPos": {
+        "x": 30.0,
+        "y": 270.0
+      },
+      "_ballboyPosComment": "ballboy start at the x and y position indicated. This must be a positive double.",
+      "cloudVelocity": 0.5,
+      "clouds": [
+        {"x": 5, "y": 5},
+        {"x": 90, "y": 60},
+        {"x": 100, "y": 90},
+        {"x": 400, "y": 140},
+        {"x": 10, "y": 250}
+      ],
+      "_cloudVelocityComment": "Clouds should move the given number of pixels per second. This must be a positive double. This is not a required feature in assignment 2 but we leave it here as a sample only for students who are interested in this feature.",
+      "_enemies": "to express enermies",
+      "enemies": [{"x": 150,"y":205}],
+      "flag" :{"x": 600,"y": 275},
+      "foot_tile" : [
+        {"x": 150, "y": 225},
+        {"x": 166, "y": 225},
+        {"x": 182, "y": 225},
+        {"x": 198, "y": 225},
+        {"x": 214, "y": 225},
+        {"x": 230, "y": 225},
+        {"x": 246, "y": 225},
+        {"x": 240,"y": 150},
+        {"x": 256,"y": 150},
+        {"x": 272,"y": 150},
+        {"x": 288,"y": 150},
+        {"x": 304,"y": 150},
+        {"x": 320,"y": 150},
+        {"x": 336,"y": 150},
+        {"x": 352,"y": 150},
+        {"x": 368,"y": 150},
+        {"x": 350,"y": 220},
+        {"x": 366,"y": 220},
+        {"x": 382,"y": 220},
+        {"x": 398,"y": 220},
+        {"x": 414,"y": 220}
+      ]
+    }
+  }
+
+]
